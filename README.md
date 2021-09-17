@@ -24,3 +24,6 @@ Learn how to adapt the content of an html to the size of a screen using @media i
     * if small, the 3 divs are stacked on top of one and other.
     * if small, the 3 divs are stacked on top of one and other.
     * if big, the 3 divs should be next to one and other.
+    
+***
+Link [here](https://fradven.github.io/Responsive-Web-Design/)
