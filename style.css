@@ -3,42 +3,44 @@
 @media screen and (max-width: 410px) {
     body {
     background-color: red;
+    display: flex;
+    flex-direction: column;
     }
 
-    #small {
+    #small, #medium, #large {
         font-size: 1em;
     }
-
-    #medium, #large {
-        display: none;
-    }    
 }
 
 @media screen and (min-width: 410px) and (max-width: 768px) {
     body {
         background-color: green;
+        font-size: 1.4em;
+    }
+
+    #small {
+        width: 66%;
     }
 
     #medium {
-        font-size: 2em;
+        width: 33%;
     }
 
-    #small, #large {
-        display: none;
+    #large {
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) {
     body {
         background-color: blue;
+        display: flex;
+        flex-direction: row;
     }
 
-    #large {
-        font-size: 3em;
+    div {
+        font-size: 1.8em;
+            
     }
-
-    #small, #medium {
-        display: none;
-    }
-    }
+}
     
