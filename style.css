@@ -1,1 +1,44 @@
 
+
+@media screen and (max-width: 410px) {
+    body {
+    background-color: red;
+    }
+
+    #small {
+        font-size: 1em;
+    }
+
+    #medium, #large {
+        display: none;
+    }    
+}
+
+@media screen and (min-width: 410px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    #medium {
+        font-size: 2em;
+    }
+
+    #small, #large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    #large {
+        font-size: 3em;
+    }
+
+    #small, #medium {
+        display: none;
+    }
+    }
+    
