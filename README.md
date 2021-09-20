@@ -22,7 +22,7 @@ Learn how to adapt the content of an html to the size of a screen using @media i
 
 * Fourth ask to make change to each div as follow:
     * if small, the 3 divs are stacked on top of one and other.
-    * if small, the 3 divs are stacked on top of one and other.
+    * if medium, the first div takes 2/3 of width, the second 1/3 of width and the third the full width.
     * if big, the 3 divs should be next to one and other.
     
 ***
